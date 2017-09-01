@@ -2,10 +2,10 @@
 
 echo Installing zsh via Homebrew...
 
-#brew install zsh zsh-completions
+brew install zsh zsh-completions
 
 echo Adding to .zshrc to activate completions...
-#echo "\nfpath=(/usr/local/share/zsh-completions $fpath)" >> ~/.zshrc
+echo "\nfpath=(/usr/local/share/zsh-completions $fpath)" >> ~/.zshrc
 
 echo Preventative measures for \"zsh compinit: insecure directories\" warnings...
 chmod go-w '/usr/local/share'
