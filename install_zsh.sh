@@ -35,7 +35,8 @@ echo "Okay, first we'll install zsh via Homebrew 🍺
 brew install zsh zsh-completions
 
 echo "Updating your .zshrc file to activate zsh-completions"
-echo "\nfpath=(/usr/local/share/zsh-completions $fpath)" >> ~/.zshrc
+user_name=$(whoami)
+echo "fpath=($user_name/usr/local/share/zsh-completions \$fpath)" >> ~/.zshrc
 
 echo "✅
 "
