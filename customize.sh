@@ -131,5 +131,5 @@ echo "✅
 "
 
 echo "
-🎉  All done! Remember to complete the setup steps in the readme (just a couple tweaks to iTerm), restart your shell, and enjoy your super slick new setup! 🎉
+🎉  All done! Remember to complete the setup steps in the readme (just a couple tweaks to iTerm and your .zshrc), restart your shell, and enjoy your super slick new setup! 🎉
 "
