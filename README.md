@@ -1,6 +1,8 @@
 # gimmedatzsh
 An attempt to make it easier to port my preferred terminal setup to new machines
 
+![Example](./example.png)
+
 ## Prerequisites
 The Installation Instructions below assumes you have both git and Homebrew installed on your computer. Also, you have to be running a linux-based machine.
 
