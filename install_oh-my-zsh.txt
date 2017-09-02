@@ -1,8 +1,0 @@
-#!/bin/bash
-
-echo So you set up zsh, huh? Great! Now let\'s get oh-my-zsh ready to go.
-
-echo Installing oh-my-zsh...
-#sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-echo Looks different right? To customize, run the customize bash script included in this project. 
