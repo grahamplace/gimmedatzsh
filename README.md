@@ -18,12 +18,14 @@ Follow the prompts to install Zsh on your machine.
 
 ### Oh My Zsh
 If you don't yet have Oh My Zsh installed:
+
 `bash install_oh-my-zsh.sh`
 
 Follow the prompts to install Oh My Zsh on your machine.
 
 ### Customize
 To customize your terminal setup:
+
 `bash customize.sh`
 
 Follow the prompts to customize your setup as desired.
@@ -31,6 +33,7 @@ Follow the prompts to customize your setup as desired.
 After running the customization script, you'll need to add your desired plugins to your .zshrc file manually. This file should be in your home directory; open `~/.zshrc` with your favorite text editor.
 
 Add any plugins you want to use to the .zshrc file, for example:
+
 `plugins=(zsh-syntax-highlighting zsh-autosuggestions git)`
 
 ### iTerm
