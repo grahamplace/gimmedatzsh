@@ -84,7 +84,7 @@ cp theme.zsh ~/.oh-my-zsh/custom
 read -r -p "▶️  Do you want to include some basic (but quite useful) git aliases? [y/N] " response
 if [[ "$response" =~ ^([yY][eE][sS]|[yY])+$ ]]
 then
-  # Backup old theme.zsh if present
+  # Backup old git_aliases.zsh if present
   if [ -e ~/.oh-my-zsh/custom/git_aliases.zsh ]
   then
     cp ~/.oh-my-zsh/custom/git_aliases.zsh ~/.oh-my-zsh/custom/git_aliases.zsh.orig
